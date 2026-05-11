@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto Restaurant</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="https://png.pngtree.com/png-clipart/20220604/original/pngtree-restaurant-logo-png-image_7932128.png">
+
+</head>
+<body>
+    <!-- main section -->
+    <section id="main" class="w-full h-screen  relative">
+        <!-- navbar -->
+    <nav class="w-full bg-red-600 text-white py-2 absolute">
+        <ul class="md:flex justify-evenly items-center text-2xl sm:text-center ">
+            <li><a href="#"><img class=" mx-auto" src="https://png.pngtree.com/png-clipart/20220604/original/pngtree-restaurant-logo-png-image_7932128.png" alt="logo" width="100px"></a></li>
+            <li class="sm:py-2 hover:text-yellow-300 cursor-pointer"><a href="#special">Specials</a></li>
+            <li class="sm:py-2 hover:text-yellow-300 cursor-pointer"><a href="#about">About</a></li>
+            <li class="sm:py-2 hover:text-yellow-300 cursor-pointer"><a href="#menu">Menu</a></li>
+            <li class="sm:py-2 hover:text-yellow-300 cursor-pointer"><a href="#footer">Services</a></li>
+            <li class="sm:py-2 hover:text-yellow-300 cursor-pointer"><a href="#message">Contact</a></li>
+        </ul>
+    </nav>
+     <!-- bg image and overlay -->
+    <div class="w-full h-screen bg-[url('./medias/background.jpg')] bg-cover text-white">
+        <div class="w-full h-full bg-black/50 flex flex-col justify-center text-center">
+            <h1 class="font-bold text-9xl">Guesto Restaurant</h1>
+            <p class="font-bold text-xl" >Where taste meets comfort.</p>
+            <p class="font-bold text-xl">Relax, unwind, and indulge in a dining experience designed to delight your senses.</p>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- specials section -->
+     <section id="special" class="w-full h-full bg-gray-100 py-4">
+        <h1 class="text-red-700 font-bold text-center text-6xl underline my-3 py-2 underline-offset-12">OUR SPECIALS</h1>
+        <p class="text-center text-lg my-2">Experience handcrafted flavors made with passion</p>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 px-40 md:pt-20 text-center">
+            <div class="px-3 bg-black rounded text-white shadow-xl">
+                <h1 class="text-2xl font-bold py-6">Grilled Feast Platter</h1>
+                <img class="rounded" src="https://thumbs.dreamstime.com/b/lavish-display-grilled-meats-showcases-variety-cuts-preparations-inviting-all-to-enjoy-joyous-gathering-filled-350770663.jpg" alt="img1">
+                <p class="py-3">A mouthwatering combination of smoky grilled chicken, juicy sausages, fresh vegetables, and chef-crafted sauces served to perfection.</p>
+            </div>
+            <div class="px-3 bg-red-500 rounded text-white shadow-xl">
+                <h1 class="text-2xl font-bold py-6">Chef’s Signature Delight</h1>
+                <img class="rounded " src="https://www.simplotfood.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F0dkgxhks0leg%2F2HNpIyUcZgyaerIJJALhXJ%2F25d68ffea9a6ac8480d36cd514401868%2FAdobeStock_392830602-1170x780px.jpg%3Ffm%3Dwebp&w=3840&q=75" alt="img2">
+                <p class="py-3">Prepared with premium ingredients and authentic flavors, this signature dish delivers a rich and unforgettable dining experience.</p>
+            </div>
+            <div class="px-3 bg-black rounded text-white shadow-xl">
+                <h1 class="text-2xl font-bold py-6">Fresh & Flavorful Combo</h1>
+                <img class="rounded" src="https://images.pexels.com/photos/5807020/pexels-photo-5807020.jpeg" alt="img3">
+                <p class="py-3">Enjoy a perfect balance of freshness and flavor with our handcrafted selection of grilled delicacies and seasonal ingredients.</p>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-10">
+                <button class="bg-yellow-300 shadow-lg text-xl px-5 py-3 mb-4 rounded-lg hover:bg-yellow-400"><a href="#menu">View More</a></button>
+            </div>
+     </section>
+
+     <!-- story section -->
+      <section id="about" class="w-full h-full py-5 bg-amber-300">
+         <div class="grid md:grid-cols-2 gap-20 py-4 px-20">
+            <div class="pt-10">
+                <img class="rounded-lg shadow-lg" src="./medias/background.jpg" alt="">
+            </div>
+            <div class="text-justify">
+                <h1 class="text-center text-4xl text-red-500 mb-6 underline font-bold underline-offset-10">OUR STORY</h1>
+                <p>Founded with a passion for bringing people together through unforgettable flavors, Guesto Restaurant began as a small family kitchen inspired by traditional recipes and modern culinary creativity. What started as a dream to serve comforting meals with a touch of elegance has now grown into a dining destination loved for its warm atmosphere, handcrafted dishes, and exceptional hospitality.</p>
+                <p>At Guesto, every plate tells a story. From freshly grilled specialties to carefully prepared signature dishes, our chefs use premium ingredients, aromatic herbs, and authentic cooking techniques to create meals that satisfy both the heart and soul. We believe dining is more than just food — it is an experience filled with laughter, connection, and memorable moments shared with family and friends.</p>
+                <p>Over the years, Guesto Restaurant has become a place where tradition meets modern taste. Whether you are enjoying a casual lunch, a romantic dinner, or a special celebration, our goal is to make every visit feel welcoming and unique. With a cozy ambiance, flavorful cuisine, and dedication to quality, we continue our journey of serving happiness one dish at a time.</p>
+            </div>
+            
+         </div>
+
+      </section>
+    
+      <!-- pictures -->
+     <section>
+        <div class="grid md:grid-cols-4 sm:grid-cols-2">
+          
+            <img class="h-72 w-full object-cover" src="https://freedesignfile.com/upload/2018/05/Sashimi-with-sushi-and-black-background-Stock-Photo-03.jpg" alt="image-1">
+
+            <img class="h-72 w-full object-cover" src="https://img.freepik.com/free-photo/gourmet-seared-duck-breast-with-roasted-vegetables-rich-sauce_84443-72273.jpg?semt=ais_hybrid&w=740&q=80" alt="image-2">
+
+            <img class="h-72 w-full object-cover" src="https://img.freepik.com/premium-photo/beautiful-restaurant-food-black-background-generative-ai_74760-6670.jpg" alt="image-3">
+
+            <img class="h-72 w-full object-cover" src="https://png.pngtree.com/background/20250209/original/pngtree-delicious-burger-with-many-ingredients-isolated-in-the-black-background-picture-image_16097369.jpg" class="w-100" alt="image-4">
+
+
+
+        </div>
+     </section>
+      <!-- menu -->
+
+      <section id="menu" class="w-full h-full bg-gray-100 py-16 px-4 flex justify-center items-center">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-0 shadow-2xl rounded-xl overflow-hidden">
+
+        
+        <div class="bg-black text-white p-8 md:p-10 relative">
+
+            <div class="text-center mb-8">
+                <h3 class="text-2xl tracking-[6px] text-yellow-400">OUR</h3>
+
+                <h1 class="text-5xl font-bold text-yellow-300">MENU</h1>
+
+                <p class="mt-3 text-yellow-300  text-sm">GOOD FOOD -|- GOOD MOOD</p>
+            </div>
+
+            <div class="flex items-center justify-center mb-8">
+                <div class="h-[1px] w-16 bg-red-500"></div>
+
+                <h2 class="mx-4 bg-red-600 px-5 py-2 rounded-full text-lg font-semibold  tracking-wider">MAIN COURSE</h2>
+
+                <div class="h-[1px] w-16 bg-red-500"></div>
+            </div>
+
+            <div class="space-y-6">
+
+                <div class="flex gap-4 items-center">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947"    class="w-24 h-24 rounded-lg object-cover">
+
+                    <div>
+                         <h3 class="text-xl font-semibold ">Beef Steak </h3>
+                         <p class=" text-sm mt-1">Tender grilled steak served with seasonal vegetables.</p>
+                         <p class="font-bold">Rs 299</p>
+                         
+                        
+                    </div>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <img src="https://spiceindiaonline.com/wp-content/uploads/2021/05/Tandoori-Chicken-20-500x400.jpg"    class="w-24 h-24 rounded-lg object-cover">
+
+                    <div>
+                         <h3 class="text-xl font-semibold">Grilled Chicken </h3>
+                        <p class=" text-sm mt-1"> Juicy grilled chicken infused with herbs and spices.</p>
+                        <p class="font-bold">Rs 499</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 items-center">
+                    <img   src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb"   class="w-24 h-24 rounded-lg object-cover">
+
+                    <div>
+                         <h3 class="text-xl font-semibold ">Creamy Pasta </h3>
+                        <p class=" text-sm mt-1"> Rich creamy pasta with mushrooms and parmesan.</p>
+                        <p class=" font-bold">Rs 399</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-10 text-center">
+                <img src="./medias/menulogo.png" alt="menulogo" class="w-50 mx-auto">
+                <p class="text-yellow-300 italic tracking-wider"> Made With Love ❤.</p>
+            </div>
+        </div>
+
+        
+        <div class="bg-yellow-300 p-8 md:p-10">
+
+            
+            <div class="mb-10">
+                <div class="flex justify-center items-center mb-6">
+                    <div class="h-[1px] w-16 bg-red-500"></div>
+                    <h2 class="bg-red-600 text-white px-6 py-2 rounded-full text-lg font-semibold  tracking-widest">STARTERS</h2>
+                    <div class="h-[1px] w-16 bg-red-500"></div>
+                </div>
+
+                <div class="space-y-5">
+
+                    <div class="flex justify-between border-b border-gray-400 pb-2">
+                        <div>
+                            <h3 class="font-bold text-lg"> Garlic Bread
+                            </h3>
+
+                            <p class="text-sm text-gray-700">   Crispy bread with garlic butter.</p>
+                        </div>    
+                        <div>
+                            <p class="text-red-500 font-bold">Rs 299</p>
+                        </div>     
+                    </div>
+
+                    <div class="flex justify-between border-b border-gray-400 pb-2">
+                        <div>
+                            <h3 class="font-bold text-lg">  Chicken Wings</h3>
+
+                            <p class="text-sm text-gray-700"> Spicy wings tossed in signature sauce. </p>
+                        </div>
+                        <p class="text-red-500 font-bold">Rs 199</p>
+
+                    </div>
+
+                    <div class="flex justify-between border-b border-gray-400 pb-2">
+                        <div>
+                            <h3 class="font-bold text-lg"> Tomato Soup </h3>
+
+                            <p class="text-sm text-gray-700">Creamy tomato soup with herbs. </p>
+                        </div>
+                        <p class="text-red-500 font-bold">Rs 249</p>
+                    </div>
+
+                </div>
+            </div>
+
+          
+            <div class="mb-10">
+
+                <div class="flex justify-center items-center mb-6">
+                    <div class="h-[1px] w-16 bg-red-500"></div>
+                    <h2 class="bg-red-600 text-white px-6 py-2 rounded-full text-lg font-semibold uppercase tracking-widest"> Desserts</h2>
+                    <div class="h-[1px] w-16 bg-red-500"></div>
+                </div>
+
+                <div class="space-y-5">
+
+                    <div class="flex justify-between border-b border-gray-400 pb-2">
+                        <div>
+                            <h3 class="font-bold text-lg"> Lava Cake</h3>
+
+                            <p class="text-sm text-gray-700"> Warm chocolate cake with melted center.</p>
+                        </div> 
+                        <p class="text-red-500 font-bold">Rs 239</p>
+                    </div>
+
+                    <div class="flex justify-between border-b border-gray-400 pb-2">
+                        <div>
+                            <h3 class="font-bold text-lg">  Cheesecake</h3>
+
+                            <p class="text-sm text-gray-700"> Smooth cheesecake with berry compote. </p>
+                        </div>
+                        <p class="text-red-500 font-bold">Rs 389</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div>
+
+                <div class="flex justify-center items-center mb-6">
+                    <div class="h-[1px] w-16 bg-red-500"></div>
+                    <h2 class="bg-red-600 text-white px-6 py-2 rounded-full text-lg font-semibold uppercase tracking-widest">Beverages </h2>
+                    <div class="h-[1px] w-16 bg-red-500"></div>
+                </div>
+
+                <div class="space-y-4">
+
+                    <div class="flex justify-between font-bold border-b border-gray-400 pb-2">
+                        <h1>Fresh Lime</h1>
+                        <p class="text-red-500">Rs 129</p>
+                    </div>
+
+                    <div class="flex justify-between border-b border-gray-400 font-bold pb-2">
+                        <h1>Mojito</h1>
+                        <p class="text-red-500">Rs 169</p>
+                    </div>
+
+                    <div class="flex justify-between border-b border-gray-400 pb-2 font-bold">
+                        <h1>Cold Coffee</h1>
+                        <p class="text-red-500">Rs 159</p>
+                       
+                    </div>
+
+                    <div class="flex justify-between border-b border-gray-400 font-bold pb-2">
+                        <h1>Milkshake</h1>
+                        <p class="text-red-500">Rs 179</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- footer -->
+     <footer id="footer" class="bg-black text-white pt-16 pb-8">
+    
+
+    <div class="w-full mx-auto px-20 grid lg:grid-cols-3 md:grid-cols-2 gap-12 border-b border-red-500 pb-12">
+
+        <div>
+            <h2 class="text-3xl font-bold text-red-500 mb-6"> Reservations </h2>
+
+            <p class="text-gray-300 text-lg ">Reserve your table for an unforgettable dining experience. </p>
+
+            <div class="mt-6 space-y-2">
+                <p class="text-yellow-400 text-xl font-semibold">+91 xxxx xx xxxx</p>
+
+                <p class="text-gray-400"> Mon - Sun : 10:00 AM - 11:30 PM</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="text-3xl font-bold text-red-500 mb-6 ">Address</h2>
+
+            <div class="space-y-3 text-gray-300 text-lg">
+                <p>Guesto Restaurant</p>
+                <p>4321 Church Street</p>
+                <p>Thrissur, Kerala, India</p>
+                <p>Pincode - 680000</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="text-3xl font-bold text-red-500 mb-6">Opening Hours</h2>
+
+            <div class="space-y-4 text-lg">
+                <div class="flex justify-between border-b border-gray-800 pb-2">
+                    <span class="text-gray-300">Monday - Thursday</span>
+                    <span class="text-yellow-400">9 AM - 10 PM</span>
+                </div>
+
+                <div class="flex justify-between border-b border-gray-800 pb-2">
+                    <span class="text-gray-300">Friday - Sunday</span>
+                    <span class="text-yellow-400">11 AM - 2 AM</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <div id="message" class=" md:px-50 px-30 pt-5">
+
+        <div class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-red-500">Send Us A Message</h1>
+
+            <p class="text-gray-400 mt-4 text-lg"> We'd love to hear from you. Reach out anytime.</p>
+        </div>
+
+        <form class="space-y-6 md:w-75 mx-auto">
+
+            
+            <div class="grid grid-cols-2 gap-6">
+
+                <input type="text" placeholder="Your Name" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-5 py-4 text-white focus:outline-none focus:border-red-500 transition" >
+
+                <input type="email" placeholder="Your Email" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-5 py-4 text-white focus:outline-none focus:border-red-500 transition">
+
+            </div>
+
+            <input type="text" placeholder="Subject" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-5 py-4 text-white focus:outline-none focus:border-red-500 transition">
+
+            <textarea rows="6" placeholder="Write your message..." class="w-full bg-gray-900 border border-gray-700 rounded-xl px-5 py-4 text-white focus:outline-none focus:border-red-500 transition resize-none"></textarea>
+
+            <div class="text-center pt-4">
+                <button class="bg-red-600 hover:bg-red-700 px-10 py-4 rounded-full text-lg font-semibold shadow-lg hover:scale-105 transition duration-300" ><a href="#">SEND</a></button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="border-t border-gray-800 mt-5 pt-6 text-center text-gray-500 text-sm"> © 2026 Guesto Restaurant. All Rights Reserved.Designed by Godwin
+    </div>
+
+</footer>
+
+</body>
+</html>
